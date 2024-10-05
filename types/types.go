@@ -2,13 +2,13 @@ package types
 
 import "time"
 
-type request struct {
+type Request struct {
 	URL         string `json:"url"`
 	CustomShort string `json:"custom_short"`
 	Expire      time.Duration `json:"expire"`
 }
 
-type response struct {
+type Response struct {
 	URL            string `json:"url"`
 	CustomShort    string `json:"custom_short"`
 	Expire         time.Duration `json:"expire"`

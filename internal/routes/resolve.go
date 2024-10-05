@@ -1,6 +1,7 @@
-package routes 
+package routes
 
+import "github.com/gofiber/fiber/v2"
 
-func ResolveUrl(){
-	
+func ResolveUrl(c *fiber.Ctx) {
+
 }
